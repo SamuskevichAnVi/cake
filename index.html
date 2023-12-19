@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu__list">
+            <a href="#1" class="menu__link">Разбор</a>
+          </li>
+          <li class="menu__list">
+            <a href="#2" class="menu__link">Начинки</a>
+          </li>
+          <li class="menu__list">
+            <a href="#3" class="menu__link">Все курсы</a>
+          </li>
+          <li class="menu__list">
+            <a href="#3" class="menu__link">Записаться</a>
+          </li>
+        </ul>
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="логотип">
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top">
+      <div class="container">
+        <h1 class="title">Мастер-класс торты</h1>
+        <button class="buy-btn">
+          <a href="#3" class="byu-btn__text">Выбрать курс</a>
+        </button>
+      </div>
+    </section>
+      <section class="future">
+        <div class="container">
+          <div class="future__titles">
+            <h2 id="1" class="future__title section-title">Разбор</h2>
+            <p class="future__text">что разберем на курсе</p>
+          </div>
+          <div class="tabs">
+            <div class="tabs__btn">
+              <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">01 Торты</button>
+              <button class="tabs__btn-item" data-button="content-2">02 Капкейки</button>
+              <button class="tabs__btn-item" data-button="content-3">03 Трайфлы</button>
+              <button class="tabs__btn-item" data-button="content-4">04 Бенто-торты</button>
+              <button class="tabs__btn-item" data-button="content-5">05 Маршмэллоу</button>
+              <button class="tabs__btn-item" data-button="content-6">06 Эскимо</button>
+            </div>
+            <div class="tabs__content">
+              <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                <img class="tabs__content-img" src="images/1.jpg" alt="">
+                <div class="tabs__content-box">
+                  <h3>Торты</h3>
+                  <p>
+                    Вы научитесь замешивать тесто, печь бисквиты, делать начинку, замешивать крем, собирать торт и украшать его.
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-2">
+                <img class="tabs__content-img" src="images/2.jpg" alt="">
+                <div class="tabs__content-box">
+                  <h3>Капкейки</h3>
+                  <p>
+                    Вы научитесь замешивать тесто, печь бисквит, делать начинку, замешивать крем, собирать и украшать капкейки.
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-3">
+                <img class="tabs__content-img" src="images/3.jpg" alt="">
+                <div class="tabs__content-box">
+                  <h3>Трайфлы</h3>
+                  <p>
+                    Вы научитесь замешивать тесто, печь бисквит, делать начинку, замешивать крем, собирать трайфлы.
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-4">
+                <img class="tabs__content-img" src="images/4.jpg" alt="">
+                <div class="tabs__content-box">
+                  <h3>Бенто-торты</h3>
+                  <p>
+                    Вы научитесь замешивать тесто, печь бисквиты, делать начинку, замешивать крем, собирать торт и украшать его.
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-5">
+                <img class="tabs__content-img" src="images/5.jpg" alt="">
+                <div class="tabs__content-box">
+                  <h3>Маршмэллоу</h3>
+                  <p>
+                    Вы научитесь взбивать яйца до нужно консистенции, делать форму и выпекать.
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-6">
+                <img class="tabs__content-img" src="images/6.jpg" alt="">
+                <div class="tabs__content-box">
+                  <h3>Эскимо</h3>
+                  <p>
+                    Вы научитесь замешивать тесто, печь бисквиты, делать начинку, замешивать крем, собирать и украшать эскимо.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="nachinka">
+      <div class="container">
+        <h2 id="2" class="section-title nachinka__title">Начинки</h2>
+        <div class="nachinka__inner">
+          <div class="nachinka__descr">
+            <p class="nachinka__descr-title">
+              какие есть начинки
+            </p>
+            <p class="nachinka__descr-text">
+              Мы разберем с Вами все существующие начинки
+            </p>
+            <button class="nachinka__link">
+              <a href="#4">Записаться</a>
+            </button>
+          </div>
+          <div class="nachinka__item">
+            <img class="nachinka__item-img" src="images/t1.jpg" alt="">
+            <h3 class="nachinka__item-title">
+              Начинка: Клубника
+            </h3>
+            <p class="nachinka__item-text">
+              Мусс на основе клубничного пюре; клубничное компоте; ванильный бисквит.
+            </p>
+          </div>
+          <div class="nachinka__item">
+            <img class="nachinka__item-img" src="images/t2.jpg" alt="">
+            <h3 class="nachinka__item-title">
+              Начинка: Сникерс
+            </h3>
+            <p class="nachinka__item-text">
+              Шоколадный бисквит; арахис с карамелью; мусс на основе молочного шоколада.
+            </p>
+          </div>
+          <div class="nachinka__item">
+            <img class="nachinka__item-img" src="images/t3.jpg" alt="">
+            <h3 class="nachinka__item-title">
+              Начинка: Малина
+            </h3>
+            <p class="nachinka__item-text">
+              Мусс на основе пюре малины; кули из малины; ванильный бисквит.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="buy">
+      <p class="buy__bg">CAKES</p>
+      <img class="buy__img" src="images/cake.png" alt="">
+      <button class="buy-btn">
+        <a href="#4" class="byu-btn__text">Записаться</a> 
+      </button>
+      <p class="buy__text">Места ограничены</p>
+    </div>
+    <section class="acs">
+      <div class="container">
+        <h2 id="3" class="acs__title section-title">
+          Все курсы
+        </h2>
+        <p class="acs__text">
+          наши курсы
+        </p>
+        <div class="acs__items">
+          <div class="acs__item">
+            <img class="acs__item-img" src="images/a1.jpg" alt="">
+            <h3 class="acs__item-title">
+              Бисквитный торт 
+            </h3>
+            <p class="acs__item-text">
+              Торты от 2-х кг. Два вида бисквита. Мнржество начинок.
+            </p>
+            <p class="acs__item-price">
+              5000 рублей
+            </p>
+            <button class="acs__item-btn">
+              <a href="#4">Записаться</a>
+            </button>
+          </div>
+          <div class="acs__item">
+            <img class="acs__item-img" src="images/a2.jpg" alt="">
+            <h3 class="acs__item-title">
+              Капкейки
+            </h3>
+            <p class="acs__item-text">
+              Два вида бисквита. Множество начинок. Научимся украшать.
+            </p>
+            <p class="acs__item-price">
+              2500 рублей
+            </p>
+            <button class="acs__item-btn">
+              <a href="#4">Записаться</a>
+            </button>
+          </div>
+          <div class="acs__item">
+            <img class="acs__item-img" src="images/a3.jpg" alt="">
+            <h3 class="acs__item-title">
+              Трайфлы
+            </h3>
+            <p class="acs__item-text">
+              Необычный рецепт крема и множество начинок.
+            </p>
+            <p class="acs__item-price">
+              3000 рублей
+            </p>
+            <button class="acs__item-btn">
+              <a href="#4">Записаться</a>
+            </button>
+          </div>
+          <div class="acs__item">
+            <img class="acs__item-img" src="images/a4.jpg" alt="">
+            <h3 class="acs__item-title">
+              Бенто-торт
+            </h3>
+            <p class="acs__item-text">
+              Вес 400-500 гр. Необычные украшения.
+            </p>
+            <p class="acs__item-price">
+              3500 рублей
+            </p>
+            <button class="acs__item-btn">
+              <a href="#">Записаться</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <h2 id="4" class="contact__title">
+          Записаться на курс
+        </h2>
+        <div class="contact__inner">
+          <div class="contact__form">
+            <form class="form" action="">
+              <input class="form__input" type="text" placeholder="E-mail">
+              <button class="form__btn" type="submit">ОК</button>
+            </form>
+            <p class="contact__text">
+              Отправьте нам свой E-mail для того, чтобы мы связались с Вами и записали Вас на курс.
+            </p>
+          </div>
+          <a href="mailto:samuskevich.anna@mail.ru" class="contact__email">samuskevich.anna@mail.ru</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu__list">
+            <a href="#1" class="menu__link">Разбор</a>
+          </li>
+          <li class="menu__list">
+            <a href="#2" class="menu__link">Начинки</a>
+          </li>
+          <li class="menu__list">
+            <a href="#3" class="menu__link">Все курсы</a>
+          </li>
+          <li class="menu__list">
+            <a href="#4" class="menu__link">Записаться</a>
+          </li>
+        </ul>
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="логотип">
+        </a>
+        <ul href="#" class="social">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="images/you.svg" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="images/fs.svg" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="images/insta.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
